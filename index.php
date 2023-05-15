@@ -1,13 +1,8 @@
-Link do site: http://adillan.lovestoblog.com/
-
-
-
-C�digo do site: 
 <html> 
 
 <head>
 
-<title>Calculadora de ângulos</title>
+<title>Calculadora de Ã¢ngulos</title>
 
 <link rel="icon" href="favicon.ico"/>
 
@@ -282,7 +277,7 @@ C�digo do site:
 
 	<figure><img src="ladrilho.png" width="130"/></figure>
 
-	<h1>Calculadora de Ângulos Automática</h1>
+	<h1>Calculadora de Ã‚ngulos AutomÃ¡tica</h1>
 
 </header>
 
@@ -290,7 +285,7 @@ C�digo do site:
 
 <form method="post">
 
-	<h1>Insira o número de lados do polígono que desejar: </h1>
+	<h1>Insira o nÃºmero de lados do polÃ­gono que desejar: </h1>
 
 	<div>
 
@@ -308,7 +303,7 @@ C�digo do site:
 
 		if($lado < 3){
 
-			echo "<br><span style='border-radius:8px; border-left: 2px solid black; border-top: 2px solid black; border-bottom: 2px solid #888; border-right: 2px solid #888;' class='resultado'>Valor incompatível. O mínimo de lados possíveis são 3.</span>";
+			echo "<br><span style='border-radius:8px; border-left: 2px solid black; border-top: 2px solid black; border-bottom: 2px solid #888; border-right: 2px solid #888;' class='resultado'>Valor incompatÃ­vel. O mÃ­nimo de lados possÃ­veis sÃ£o 3.</span>";
 
 		}
 
@@ -322,9 +317,9 @@ C�digo do site:
 
 		$diagonal = ($lado * ($lado - 3)) / 2;
 
-		echo "<br><span style='border-radius: 8px 0 0 8px; border-top: 2px solid black; border-left: 2px solid black; border-bottom: 2px solid #888' class='resultado'>A soma dos ângulos internos dessa figura é igual a</span>","<span style='border-bottom: 2px solid #888; border-top: 2px solid black;' class='resultado'>".$soma."</span>","<span style='border-radius: 0 8px 8px 0; border-top: 2px solid black; border-bottom: 2px solid #888; border-right: 2px solid #888;' class='resultado'>graus.</span><br><br>";
+		echo "<br><span style='border-radius: 8px 0 0 8px; border-top: 2px solid black; border-left: 2px solid black; border-bottom: 2px solid #888' class='resultado'>A soma dos Ã¢ngulos internos dessa figura Ã© igual a</span>","<span style='border-bottom: 2px solid #888; border-top: 2px solid black;' class='resultado'>".$soma."</span>","<span style='border-radius: 0 8px 8px 0; border-top: 2px solid black; border-bottom: 2px solid #888; border-right: 2px solid #888;' class='resultado'>graus.</span><br><br>";
 
-		echo "<span style='border-radius: 8px 0 0 8px; border-top: 2px solid black; border-left: 2px solid black; border-bottom: 2px solid #888' class='resultado'>O valor de cada ângulo interno dessa figura é</span>","<span style='border-bottom: 2px solid #888; border-top: 2px solid black;' class='resultado'>".$valorArredondado."</span>","<span style='border-radius: 0 8px 8px 0; border-top: 2px solid black; border-bottom: 2px solid #888; border-right: 2px solid #888;' class='resultado'>graus.</span><br><br>";
+		echo "<span style='border-radius: 8px 0 0 8px; border-top: 2px solid black; border-left: 2px solid black; border-bottom: 2px solid #888' class='resultado'>O valor de cada Ã¢ngulo interno dessa figura Ã©</span>","<span style='border-bottom: 2px solid #888; border-top: 2px solid black;' class='resultado'>".$valorArredondado."</span>","<span style='border-radius: 0 8px 8px 0; border-top: 2px solid black; border-bottom: 2px solid #888; border-right: 2px solid #888;' class='resultado'>graus.</span><br><br>";
 
 		echo "<span style='border-radius: 8px 0 0 8px; border-top: 2px solid black; border-left: 2px solid black; border-bottom: 2px solid #888' class='resultado'>Essa figura possui</span>","<span style='border-bottom: 2px solid #888; border-top: 2px solid black;' class='resultado'>".$diagonal."</span>","<span style='border-radius: 0 8px 8px 0; border-top: 2px solid black; border-bottom: 2px solid #888; border-right: 2px solid #888;' class='resultado'>diagonais.</span>";
 
@@ -344,7 +339,7 @@ C�digo do site:
 
 	<figure><img src="ladrilho.png" width="80"/></figure>
 
-	<p style="position: relative; left: 1.7em;;">Ádillan Wasilewski Soares</p>
+	<p style="position: relative; left: 1.7em;;">Ãdillan Wasilewski Soares</p>
 
 	<p>&copy; Todos os direitos reservados.</p>
 
